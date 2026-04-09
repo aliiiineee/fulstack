@@ -1,0 +1,20 @@
+body {
+    background-color: #e465af;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+head {text-align: center;}
+
+.img-grande {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+#datos { 
+    background-color: #8e53b6;
+
+
+}
