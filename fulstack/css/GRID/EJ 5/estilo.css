@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.Paneldecontrol{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "sidebar contenido"
+    "footer footer";
+
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 100px 1fr 50px;
+    width: auto;
+    background-color: #400652;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: header;
+    background-color: #190120;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.iconos{
+    display: flex;
+    gap: 15px;
+    font-size: 22px;
+}
+
+.sidebar{
+    display: flex;
+    grid-area: sidebar;
+    background-color: #190120;
+    border-radius: 10px;
+    padding: 20px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    background-color: #5c09af;
+    padding: 15px;
+    border-radius: 15px;
+    gap: 10px;
+}
+
+.contenido{
+    display: flex;
+    grid-area: contenido;
+    gap: 20px;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 220px;
+    background-color: #190120;
+    padding: 50px;
+    gap: 20px;
+}
+
+.caja h3{
+    color: #ffffff;
+}
+
+.caja p{
+    font-size: 40px;
+    font-weight: bold;
+    color: #c004ff;
+}
+
+.footer{
+    display: grid;
+    grid-area: footer;
+    justify-content: center;
+    align-items: center;
+    background-color: #190120;
+    border-radius: 10px;
+    color: #ffffff;
+}

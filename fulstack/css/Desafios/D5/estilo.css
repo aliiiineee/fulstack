@@ -1,0 +1,17 @@
+.conteiner{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 100vh;
+}
+
+section{
+    background-color: blue;
+    color: aliceblue;
+}
+
+body{ 
+    margin: 0;
+}

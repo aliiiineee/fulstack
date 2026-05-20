@@ -1,0 +1,96 @@
+.body{
+    display: grid;
+gap: 20px;
+height: 100vh;
+
+}
+
+.grid{
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto auto;
+gap: 10vh;
+background-color: rgb(4, 4, 81);
+}
+
+.BOXuno{
+    background-color: aquamarine;
+height: 200px;
+width: 200px;
+border-radius: 10px;
+justify-self: start;
+align-self: start;
+}
+
+.BOXdos{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    justify-self: center;
+    align-self: self-start;
+    background-color: rgb(150, 127, 255);
+}
+
+.BOXtres{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    justify-self: end;
+    align-self: self-start;
+    background-color: rgb(70, 138, 81);
+}
+
+.BOXcuatro{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(255, 230, 0);
+    justify-self: start;
+    align-self: center;
+}
+
+.BOXcinco{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    justify-self: center;
+    align-self: center;
+}
+
+.BOXseis{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 191);
+    justify-self: end;
+    align-self: center;
+}
+
+.BOXsiete{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(255, 153, 0);
+    justify-self: start;
+    align-self: self-end;
+}
+
+.BOXocho{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    justify-self: center;
+    align-self: end;
+    background-color: aquamarine;
+}
+
+.BOXnueve{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    justify-self: end;
+    align-self: end;
+}
+

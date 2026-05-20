@@ -1,0 +1,33 @@
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 50px;
+    height: 100vh;
+    gap: 40px;
+    justify-content: center;
+}
+
+    body{
+        margin: 0%;
+    }
+
+.uno{
+    height: 60px;
+    background-color: aqua;
+}
+
+.dos{
+    height: 150px;
+    background-color: blue;
+}
+
+.tres{
+    height: 100px;
+    background-color: darkred;
+}
+
+.cuatro{
+    height: 200px;
+    background-color: blueviolet;
+}

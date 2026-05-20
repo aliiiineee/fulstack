@@ -1,0 +1,91 @@
+body{
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: white;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "sidebar contenido nuevospedidos"
+    "footer footer footer";
+    gap: 20px;
+    grid-template-columns: 200px 1fr 220px;
+    width: 90%;
+    background-color: #093491;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.header{
+    display: flex;
+    grid-area: header;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #011941;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar{
+    display: flex;
+    grid-area: sidebar;
+    flex-direction: column;
+    background-color: #011941;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 15px;
+}
+
+.menu{
+    background-color: #010c1d;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.contenido{
+    display: flex;
+    grid-area: contenido;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.caja{
+    background-color: #011941;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.caja p{
+    font-size: 30px;
+    color: #60a5fa;
+}
+
+.nuevospedidos{
+    display: flex;
+    grid-area: nuevospedidos;
+    background-color: #011941;
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.usuario{
+    background-color: #011941;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer{
+    display: flex;
+    grid-area: footer;
+    background-color: #011941;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
