@@ -1,0 +1,189 @@
+body{
+    background-color: #18474c;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #27747d;
+    padding: 1px 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 40px 40px;
+  background: #27747d;
+  color: white;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  gap: 20px; 
+}
+
+.links a {
+    color: white;
+}
+.caja:hover{
+    transform: translateY(-5px);
+    border-color: #27747d;
+}
+.img-grande{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header h1{
+    color: #103033;
+    margin: 0;
+}
+
+.header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.header a:hover{
+    color: #071a1c;
+}
+
+main{
+    padding: 160px 30px 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section{
+    background-color: #27747d;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid #334155;
+    padding: 12px;
+    text-align: center;
+}
+
+th{
+    background-color: #09464b;
+    color: #ffffff;
+}
+
+.contenido{
+    display: grid;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    background-color: #3db3c0;
+    padding: 30px;
+    border-radius: 15px;
+    transition: 0.3s;
+    gap: 15px;
+}
+
+
+.caja a{
+    text-decoration: none;
+}
+
+.caja h3{
+    color: #103033;
+    margin: 0;
+}
+
+
+.footer{
+    background-color: #27747d;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.footer hr{
+    margin: 20px 0;
+    border: 1px solid #154045;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,textarea{
+    background-color: #0a1d1f;
+    border: 1px solid #000000;
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+}
+
+button{
+    background-color: #0c2426;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #3eb9c6;
+}
+
+input::placeholder {
+  color: #5f6771; 
+  font-style: italic; 
+  opacity: 1; 
+}
+
+@media(max-width:800px){
+    .header{
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+    .logo-area{
+    width: 100%;
+    justify-content: center;
+    }
+    nav{
+    width: 100%;
+ }
+    .header a{
+    margin: 0 10px;
+    }
+    main{
+    padding: 220px 15px 20px;
+    }
+    .contenido{
+     grid-template-columns: 1fr;
+    }
+    table{
+font-size: 12px;
+    }
+}
